@@ -1,0 +1,128 @@
+name: healthApp
+description: Health Navigator Plus
+publish_to: 'none'
+version: 0.13.0+9
+environment:
+  sdk: '>=3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations: 
+    sdk: flutter
+
+  bloc: ^8.1.2
+  back_button_interceptor: ^6.0.2
+  cached_network_image: ^3.2.3
+  calendar_date_picker2: ^0.4.5
+  dio: ^5.0.3
+  dropdown_button2: ^2.0.0
+  equatable: ^2.0.5
+  flutter_bloc: ^8.1.3
+  flutter_html: ^3.0.0-alpha.6
+  flutter_local_notifications: ^14.0.0+1
+  flutter_map: ^3.1.0
+  flutter_svg: ^2.0.0+1
+  flutter_timezone: ^1.0.4
+  google_fonts: ^4.0.3
+  http_parser: ^4.0.2
+  image_picker: ^0.8.7
+  intl: ^0.18.0
+  json_annotation: ^4.8.0
+  json_cache: ^2.1.0
+  latlong2: ^0.8.1
+  localization: ^2.1.0
+  pretty_dio_logger: ^1.3.1
+  retrofit: ^4.0.1
+  selectable_autolink_text: ^2.6.0
+  shared_preferences: ^2.0.17
+  shimmer_animation: ^2.1.0+1
+  sliding_up_panel: ^2.0.0+1
+  tuple: ^2.0.1
+  timelines: ^0.1.0
+  timezone: ^0.9.2
+  url_launcher: ^6.1.11
+  uuid: ^3.0.7
+  webview_flutter: ^4.2.0
+  webview_flutter_android: ^3.7.0
+  webview_flutter_wkwebview: ^3.4.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  build_runner: ^2.0.0
+  flutter_lints: ^2.0.0
+  flutter_launcher_icons: ^0.12.0
+  json_serializable: ^6.6.1
+  retrofit_generator: '>=5.0.0 <6.0.0'
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  remove_alpha_ios: true
+  image_path: "assets/icons/launcher.png"
+  min_sdk_android: 21
+  web:
+    generate: true
+    image_path: "assets/icons/launcher.png"
+    background_color: "#ffffff00"
+    theme_color: "#fff"
+  windows:
+    generate: true
+    image_path: "assets/icons/launcher.png"
+    icon_size: 48
+  macos:
+    generate: true
+    image_path: "assets/icons/launcher.png"
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - "assets/locales/ru_RU.json"
+    - "assets/locales/en_US.json"
+    - "assets/data/institutions.json"
+    - "assets/age_check/bottom-right_decoration.svg"
+    - "assets/age_check/law_icon.png"
+    - "assets/age_check/left-side_decoration.svg"
+    - "assets/main/background.png"
+    - "assets/main/header.png"
+    - "assets/main/placeholder.jpg"
+    - "assets/main/analysis_placeholder.jpg"
+    - "assets/icons/arrow.svg"
+    - "assets/icons/back_arrow.svg"
+    - "assets/icons/chat_selected.svg"
+    - "assets/icons/chat_unselected.svg"
+    - "assets/icons/close.svg"
+    - "assets/icons/dots.svg"
+    - "assets/icons/envelope.svg"
+    - "assets/icons/filters.svg"
+    - "assets/icons/globe.svg"
+    - "assets/icons/help_abroad.svg"
+    - "assets/icons/home_selected.svg"
+    - "assets/icons/home_unselected.svg"
+    - "assets/icons/institution_base.svg"
+    - "assets/icons/library.svg"
+    - "assets/icons/location.svg"
+    - "assets/icons/long_arrow.svg"
+    - "assets/icons/magnifier.svg"
+    - "assets/icons/man_selected.svg"
+    - "assets/icons/man_unselected.svg"
+    - "assets/icons/personal_area.svg"
+    - "assets/icons/phone.svg"
+    - "assets/icons/quick_help.svg"
+    - "assets/icons/quiz_checkmark.svg"
+    - "assets/icons/quiz.svg"
+    - "assets/icons/schedule_black.svg"
+    - "assets/icons/schedule_selected.svg"
+    - "assets/icons/schedule_unselected.svg"
+    - "assets/icons/search.svg"
+    - "assets/icons/gear.svg"
+    - "assets/icons/add.svg"
+    - "assets/icons/add_black.svg"
+    - "assets/icons/down_arrow_black.svg"
+    - "assets/icons/down_arrow_grey.svg"
+    - "assets/icons/photo.svg"
+    - "assets/icons/picture.svg"
+    - "assets/icons/document.svg"
